@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgba(41, 0, 0, 0.897);
+}
+
+header {
+    margin: auto;
+    height: 550px;
+    width: 1400px;
+    background-color: rgba(77, 2, 2, 0.5);
+}
+
+header nav {
+    margin: auto;
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: right;
+}
+
+nav ul li a {
+    display: inline-block;
+    background-color: rgba(129, 0, 0, 0);
+    padding: 15px 20px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 0, 0, 0);
+    text-decoration:underline;
+}
+
+
+.Img img {
+    margin: 1px auto;
+    height: 550px;
+    width: 1400px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.Contenedor {
+    margin: 1px auto;
+    height: 500px;
+    width: 1000px;
+}
+.Contenedor .Caja1 section {
+    text-align: center;
+}
+.Contenedor .Caja1 section .oso{
+    margin-top: -90px;
+}
+.Contenedor .Caja1 section img {
+    width: 200px;
+    height: 200px;
+    border-radius: 160px;
+    margin: auto;
+}
+.Contenedor .Caja1 section .text{
+    color: white;
+}
+header nav ul .Dani{
+    text-align: center;
+    top: 210px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    position: absolute;
+    margin: 1px auto;
+    height: 90px;
+    width: 420px;
+    border: 2px white solid;
+    background-color: rgba(8, 0, 0, 0.651);
+}
+header nav ul .Dani h2{
+    color: white;
+    padding: 15px;
+}
+.Contenedor .Caja2 section img{
+    width: 250px;
+    height: 250px;
+    margin: 15px;
+}
+.Contenedor .Caja2 section {
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.576);
+}
+
+.Contenedor .Caja3 {
+    height: 220px;
+    width: 100%;
+    color: #fff;
+    background-color: rgba(44, 18, 18, 0.809);
+}
+.Contenedor .Caja3 section {
+    text-align: center;
+    padding: 10px;
+}
+.Contenedor .Caja3 section .Form{
+    background-color: rgba(19, 153, 163, 0);
+    width: 100%;
+    height: 120px;
+}
+.Contenedor .Caja3 section input{
+    background-color: rgb(67, 13, 13);
+    border: 10px transparent solid;
+    padding: 5px;
+    height: 30px ;
+    width: 400px;
+}
+
+.Contenedor .Caja3 section .FormA{
+    float: left;
+    width: 50%;
+}
+.Contenedor .Caja3 section .FormB{
+    width: 50%;
+    float: right;
+}
+.Contenedor .Caja3 section .FormC{
+    margin-top: 15px;
+    width: 100%;
+}
+.Contenedor .Caja3 section .FormC .C{
+    margin-top: 15px;
+}
+.Contenedor .Caja3 section .C{
+
+    width: 300px;
+    height: 35px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position:s;
+}
+
+
+.Clean{
+    clear: both;
+}
+
+aside nav{
+    overflow: hidden;
+}
+aside nav p {
+    text-align: center;
+    background-color: black;
+}
+aside nav p a{
+    display: inline-block;
+    padding: 15px 30px;
+    
+}
+aside nav p a img{
+    height: 30px;
+    width: 30px;
+}
+
+aside nav p .img1:hover{
+    background-color: rgb(0, 217, 255);
+}
+aside nav p .img2:hover{
+    background-color: rgb(0, 81, 255);
+}
+aside nav p .img3:hover{
+    background-color: rgb(255, 0, 0);
+}
+aside nav p .img4:hover{
+    background-color: rgb(0, 255, 64);
+}
+aside nav p .img5:hover{
+    background-color: rgba(76, 0, 255, 0.788);
+}
